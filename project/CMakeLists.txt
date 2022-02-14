@@ -25,6 +25,7 @@ conan_cmake_run(
         catch2/2.13.8
         poco/1.11.1
         stb/cci.20210713
+        ms-gsl/4.0.0
     OPTIONS
         ${POCO_EXTRA_OPTIONS}
         poco:enable_net=True

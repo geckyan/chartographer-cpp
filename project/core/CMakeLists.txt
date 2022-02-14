@@ -10,4 +10,5 @@ target_link_libraries(${PROJECT_NAME}
     PUBLIC
         CONAN_PKG::stb
         CONAN_PKG::poco
+        CONAN_PKG::ms-gsl
 )
